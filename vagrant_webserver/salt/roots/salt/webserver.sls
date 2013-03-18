@@ -1,22 +1,11 @@
-debconf-utils:
-   pkg:
-    - installed
-
-nginx:
-  pkg:
-    - installed
-
-python-pip:
-  pkg:
-    - installed
-
-python-dev:
-  pkg:
-    - installed
-
-vim:
-  pkg:
-    - installed
+{% if 'template_packages' in pillar %}
+template_packages:
+  pkg.installed:
+    - pkgs:
+        {% for package in pillar['template_packages'] %}
+        - {{ package }}
+        {% endfor %}
+{% endif %}
 
 /home/vagrant/.vimrc:
   file:

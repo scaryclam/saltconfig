@@ -1,5 +1,0 @@
-base:
-  '*':
-      - webserver
-      - virtualenv
-      - postgres
