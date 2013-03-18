@@ -13,7 +13,7 @@ bar:
     - runas: postgres
  
 barDB:
-  postgres_database:
+  postgres_database2:
     - present
     - encoding: UTF-8
     - runas: postgres
