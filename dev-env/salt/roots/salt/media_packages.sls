@@ -1,6 +1,6 @@
 media_packages:
-  - pkg.installed:
-    pkg:
+  pkg.installed:
+    - pkgs:
       - vlc
       - amarok
       - libjpeg8

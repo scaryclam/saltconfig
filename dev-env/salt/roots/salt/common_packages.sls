@@ -1,6 +1,6 @@
 common_packages:
   pkg.installed:
-    pkg:
+    - pkgs:
       - python
       - virtualenv
       - python-pip
