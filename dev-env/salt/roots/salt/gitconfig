@@ -1,0 +1,10 @@
+[user]
+	name = Becky Lewis
+	email = becky.lewis@tangentlabs.co.uk
+[alias]
+    st = status
+    pp = !sh -c 'git pull $0 $1 && git push $0 $1'
+[core]
+	excludesfile = /home/lewisb/.gitignore
+[color]
+	ui = true

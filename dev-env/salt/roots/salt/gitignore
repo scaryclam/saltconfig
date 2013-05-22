@@ -1,0 +1,6 @@
+*.pyc
+.gitignore
+*.wpr
+*.wpu
+*.db
+settings_local.py
