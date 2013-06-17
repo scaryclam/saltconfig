@@ -17,3 +17,7 @@ common_packages:
       - git
       - subversion
       - mercurial
+      - vagrant
+      - htop
+      - enscript
+      - kiki
