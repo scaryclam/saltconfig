@@ -21,3 +21,4 @@ common_packages:
       - htop
       - enscript
       - kiki
+      - dia
